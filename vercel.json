@@ -1,5 +1,12 @@
-﻿{
+{
   "rewrites": [
-    { "source": "/screens/:path*", "destination": "/src/screens/:path*" }
+    {
+      "source": "/screens/wealth_vault_dashboard.html",
+      "destination": "/src/screens/portfolio.html"
+    },
+    {
+      "source": "/src/screens/wealth_vault_dashboard.html",
+      "destination": "/src/screens/portfolio.html"
+    }
   ]
 }
